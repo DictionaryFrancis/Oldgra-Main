@@ -27,4 +27,14 @@ const posts = [
         likes: 152
     }
 ]
+const likeBtn = document.querySelector(".icon-heart")
 
+likeBtn.addEventListener("click",function(){
+    likeBtn.classList.add("heart-magic")
+    
+    let likeNumber = document.querySelector(".like-number")
+        likeNumber.textContent = "22 likes"
+
+    alert("You liked the photo!")
+    
+})

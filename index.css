@@ -1,34 +1,89 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(243, 231, 231);
+    background-size: cover;
 }
 header{
     width: 600px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
-    margin: 45px auto;
-    border-bottom: 1px solid grey;
-    padding-bottom: 25px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    padding: 20px 0px;
 }
 section{
-    margin: 45px auto;
+    margin: 0px auto;
     width: 600px;
+    background-color: #FFFFFF;
 }
+/* Header */
 .avatar-photo{
-    width: 80px;
-    height: 80px;
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    margin-right: 25px;
 }
 .logo{
     width: 160px;
     height: 80px;
+    margin-left: 15px;
 }
+/* First Post */
 .perfil-info{
+    border-top: 1px solid rgb(180, 166, 166);
+    padding: 20px;
     display: flex;
 }
-.avatar-vangogh{
-    width: 80px;
-    height: 80px;
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.perfil-name{
+    font-weight: 900;
+    font-size: 26px;
+    margin: 0px 10px;
+}
+p {
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: 400;
+}
+.post{
+    width: 600px;
+}
+.post-body{
+    margin: 12px 8px;
+    padding-bottom: 15px;
+}
+
+.icon-heart,.icon-comment,.icon-dm{
+    margin: 10px 5px;
+    width: 30px;
+    cursor: pointer;
+}
+.like-number{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.comment{
+    padding-left: 2px;
+    font-weight: 400;
+}
+.perfil-info-borderless{
+    padding: 20px;
+    display: flex;
+}
+/* JavaScript Interection */
+.heart-magic{
+    background-color: red;
 }
