@@ -87,6 +87,11 @@ p {
     padding: 20px;
     display: flex;
 }
+a{
+    margin: 10px 5px;
+    width: 30px;
+    cursor: pointer;
+}
 /* JavaScript Interection */
 .heart-magic{
     background-color: red;

@@ -27,6 +27,25 @@ const posts = [
         likes: 152
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const likeBtn = document.querySelector(".icon-heart")
 
 likeBtn.addEventListener("click",function(){
